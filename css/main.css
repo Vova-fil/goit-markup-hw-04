@@ -203,6 +203,7 @@ a {
   color: var(--accent-color);
 }
 .icon-envelope {
+  background-color: #ffffff;
 }
 /* Hero */
 
@@ -276,6 +277,15 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+/*.socials-icon-benefits {
+    width: 70px;
+  height: 70px;
+}*/
+.text-benefits-text svg {
+width: 270px;
+  height: 120px;
+  background: rgba(245, 244, 250, 1);
 }
 
 /*Чем мы занимаемся*/
@@ -397,16 +407,38 @@ a {
 .socials-link:focus .socials-icon {
     fill:#ffffff;
     }
+
     /* постоянные клиенты*/
     .client-section-container {
      text-align: center;
-    }
+        }
+     .client-section-container h2 {
+         margin-bottom: 50px;
+        }
+             
    .masters-client {
      display: flex;
-  justify-content: center;
-   } 
+     justify-content: center;
+          } 
+      .client-item {
+          width: 170px;
+        height: 92px;
+        border-radius: 4px;
+        border: 1px solid rgba(175, 177, 184, 1)
+       /*border-radius: 4px 4px 4px 4px;*/
+
+      }
+      .masters-client :not(:last-child) {
+  margin-right: 30px;
+}
+.client-icon {
+  margin: 16px 32px 16px 32px;
+}
+
 /* Футер */
 .bottom {
+   display: flex;
+   justify-content: center;
   display: block;
   background-color: #2f303a;
   padding-top: 60px;
@@ -418,12 +450,23 @@ a {
   display: block;
   background-color: #2f303a;
   margin-top: 0px;
+  align-items: baseline;
+}
+.bottom-futer {
+  display: block;
+   display: table-cell;
+  margin-top: 0px;
+  align-content: center;
+  align-items: baseline;
+  margin-right: 70px;
 }
 .bottom-list {
   display: block;
   display: table-cell;
   margin-top: 0px;
   align-content: center;
+  align-items: baseline;
+  /*margin-right: 70px;*/
 }
 .link-bottom {
   color: rgba(255, 255, 255, 0.6);
@@ -471,6 +514,35 @@ a {
 
   color: #ffffff;
 }
+.socials-link-futer {
+background: rgba(255, 255, 255, 0.1);
+}
+.icons-futer {
+  display: block;
+  display: table-cell;
+  margin-top: 0px;
+  align-content: center;
+   /*display: flex;
+     justify-content: center;
+     align-items: center;
+     display: block;*/
+  /*width: 206px;
+  height: 80px;*/
+  /*margin-bottom: 100px;*/
+}
+.icons-futer h2 {
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #ffffff;
+
+}
+
+
 /* Наше портфолио */
 .portfolio {
   background-color: #ffffff;
