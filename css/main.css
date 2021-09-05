@@ -283,10 +283,27 @@ a {
   height: 70px;
 }*/
 .text-benefits-text svg {
-width: 270px;
-  height: 120px;
-  background: rgba(245, 244, 250, 1);
+/*width: 270px;
+  height: 120px;*/
+  /*background: rgba(245, 244, 250, 1);*/
 }
+.text-benefits-icon {
+/*position: absolute;*/
+width: 270px;
+height: 120px;
+left: 215px;
+top: 774px;
+
+background: #F5F4FA;
+border-radius: 4px;
+ padding: 25px 100px 25px 100px;
+ margin-bottom: 30px;
+}
+/*.socials-icon-benefits {
+  /*display: block;*/
+  padding: 25px 100px 25px 100px;
+}*/
+
 
 /*Чем мы занимаемся*/
 .work-section {
@@ -305,6 +322,7 @@ width: 270px;
   margin-right: 32px;
 }
 /* Сотрудники */
+
 /*.positions {
   display: flex;
   justify-content: space-between;
@@ -319,7 +337,7 @@ width: 270px;
 }*/
 .positions {
   /*padding-top: 94px;*/
-  background: #e5e5e5;
+  background: #F5F4FA;
 }
 .positions h2 {
   text-align: center;
@@ -426,16 +444,16 @@ width: 270px;
         border-radius: 4px;
         border: 1px solid rgba(175, 177, 184, 1)
        /*border-radius: 4px 4px 4px 4px;*/
-
+     /* padding: 16px 32px 16px 32px;*/
       }
-      .masters-client :not(:last-child) {
+      .client-item:not(:last-child) {
   margin-right: 30px;
 }
 .client-icon {
   margin: 16px 32px 16px 32px;
 }
-.client-link:hover,
-.client-link:focus {
+.client-item:hover,
+.client-item:focus {
      fill:#2196f3;
   }
 /*.socials-icon:hover,
@@ -463,7 +481,7 @@ width: 270px;
   /*height: 252px;*/
  }
 .bottom .container {
-  display: block;
+  display: flex;
   background-color: #2f303a;
   margin-top: 0px;
   align-items: baseline;
@@ -480,7 +498,7 @@ width: 270px;
   margin-top: 0px;
   align-content: center;
   align-items: baseline;
-  margin-right: 70px;
+  /*margin-right: 70px;*/
 }
 .bottom-list {
   display: block;
@@ -540,7 +558,7 @@ width: 270px;
 background: rgba(255, 255, 255, 0.1);
 }
 .icons-futer {
-  display: block;
+  /*display: block;
   display: table-cell;
   margin-top: 0px;
   align-content: center;
@@ -551,7 +569,7 @@ background: rgba(255, 255, 255, 0.1);
  /* width: 206px;*/
   height: 80px;
   margin-right: 70px;
-   margin-left: 70px;
+   margin-left: 70px;*/
 }
 .icons-futer h2 {
 font-family: Roboto;
