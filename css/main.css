@@ -434,7 +434,23 @@ width: 270px;
 .client-icon {
   margin: 16px 32px 16px 32px;
 }
-
+.client-link:hover,
+.client-link:focus {
+     fill:#2196f3;
+  }
+/*.socials-icon:hover,
+.socials-icon:focus {
+  fill: #ffffff;*/
+}
+/*.client-link:hover .client-icon,
+.client-link:focus .client-icon {
+    fill:#2196f3;
+    background-color: #2196f3;
+    }*/
+  .client-icon:hover,
+  .client-icon:focus {
+     fill:#2196f3;
+  }
 /* Футер */
 .bottom {
    display: flex;
@@ -445,13 +461,19 @@ width: 270px;
   padding-bottom: 60px;
   /*width: 1200px;*/
   /*height: 252px;*/
-}
+ }
 .bottom .container {
   display: block;
   background-color: #2f303a;
   margin-top: 0px;
   align-items: baseline;
 }
+/*.container-futer {
+  display: block;
+  background-color: #2f303a;
+  margin-top: 0px;
+  align-items: baseline;
+}*/
 .bottom-futer {
   display: block;
    display: table-cell;
@@ -465,7 +487,7 @@ width: 270px;
   display: table-cell;
   margin-top: 0px;
   align-content: center;
-  align-items: baseline;
+ /* align-items: baseline;*/
   /*margin-right: 70px;*/
 }
 .link-bottom {
@@ -526,9 +548,10 @@ background: rgba(255, 255, 255, 0.1);
      justify-content: center;
      align-items: center;
      display: block;*/
-  /*width: 206px;
-  height: 80px;*/
-  /*margin-bottom: 100px;*/
+ /* width: 206px;*/
+  height: 80px;
+  margin-right: 70px;
+   margin-left: 70px;
 }
 .icons-futer h2 {
 font-family: Roboto;
@@ -537,9 +560,13 @@ font-style: normal;
 font-weight: 700;
 line-height: 16px;
 letter-spacing: 0.03em;
-text-align: center;
+text-align: left;
 color: #ffffff;
+padding-bottom: 10px;
 
+}
+.masters-socials-futer {
+  margin-left: 0px;
 }
 
 
@@ -657,4 +684,8 @@ color: #ffffff;
   /* identical to box height, or 187% */
 
   letter-spacing: 0.03em;
+}
+.portfolio-img:hover,
+.portfolio-img:focus {
+ border: 1px solid rgba(238, 238, 238, 1)
 }
